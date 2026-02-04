@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Joint Pharma PLC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="logo">Joint Pharma PLC</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <a href="contact.html" class="cta-button">Get in Touch</a>
+        </nav>
+    </header>
+
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <h1>Contact Us</h1>
+            <p>Get in touch with our team for inquiries, quotes, and partnership opportunities</p>
+        </div>
+    </section>
+
+    <section class="contact-page">
+        <div class="contact-container">
+            <div class="contact-info-section fade-in">
+                <h2>Get in Touch</h2>
+                <p>Whether you're a wholesaler, pharmacy, hospital, or NGO, Joint Pharma PLC is ready to serve your pharmaceutical import needs with excellence and reliability.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-item-icon">📍</div>
+                        <div class="contact-item-content">
+                            <h4>Our Location</h4>
+                            <p>Getas International Building<br>
+                            Noc- Summit 72<br>
+                            Addis Ababa, Ethiopia</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-icon">📞</div>
+                        <div class="contact-item-content">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+251981609961">+251 98 160 9961</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-icon">📧</div>
+                        <div class="contact-item-content">
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@jointpharmaplc.com">info@jointpharmaplc.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-icon">🕐</div>
+                        <div class="contact-item-content">
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday: 8:30 AM - 5:30 PM<br>
+                            Saturday: 9:00 AM - 1:00 PM<br>
+                            Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-cta">
+                    <h3>Quick Links</h3>
+                    <div class="quick-links">
+                        <a href="products.html" class="quick-link-btn">View Products</a>
+                        <a href="about.html" class="quick-link-btn">About Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-section fade-in">
+                <div class="contact-form-wrapper">
+                    <h3>Send Us a Message</h3>
+                    <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="organization">Organization *</label>
+                            <input type="text" id="organization" name="organization" placeholder="Hospital / Pharmacy / Distributor" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+251 9XX XXX XXX" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inquiryType">Inquiry Type</label>
+                            <select id="inquiryType" name="inquiryType">
+                                <option value="product">Product Inquiry</option>
+                                <option value="quote">Request Quote</option>
+                                <option value="partnership">Partnership Opportunity</option>
+                                <option value="general">General Inquiry</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="product">Product of Interest (Optional)</label>
+                            <input type="text" id="product" name="product" placeholder="Specific product name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your requirements, questions, or how we can help..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="section-header fade-in">
+            <h2>Visit Our Office</h2>
+            <p>Located in the heart of Addis Ababa's business district</p>
+        </div>
+        <div class="map-placeholder fade-in">
+            <p>📍 Getas International Building, Noc- Summit 72, Addis Ababa, Ethiopia</p>
+            <!-- You can add an actual Google Maps embed here later -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Joint Pharma PLC</h3>
+                <p>A private limited company based in Addis Ababa, Ethiopia, dedicated to importing and distributing high-quality pharmaceutical and medical products across the nation.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Products</h3>
+                <ul>
+                    <li><a href="products.html#laboratory">Laboratory Equipment</a></li>
+                    <li><a href="products.html#hospital">Hospital Equipment</a></li>
+                    <li><a href="products.html#supplies">Medical Supplies</a></li>
+                    <li><a href="products.html#medicines">General Medicines</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Getas International Building</li>
+                    <li>Noc- Summit 72</li>
+                    <li>Addis Ababa, Ethiopia</li>
+                    <li>Phone: +251 98 160 9961</li>
+                    <li>Email: info@jointpharmaplc.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Joint Pharma PLC. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
