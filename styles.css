@@ -1140,4 +1140,40 @@ footer {
         width: auto !important;
         max-height: 50px !important;
     }
+    .logo-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Space between logo and text */
+}
+
+.logo-image {
+    height: 50px;
+    width: auto;
+    max-width: 50px;
+    object-fit: contain;
+}
+
+.logo-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--primary-navy);
+    letter-spacing: 0.5px;
+}
+
+.logo-link:hover .logo-image {
+    transform: scale(1.05);
+}
+
+/* For mobile */
+@media (max-width: 968px) {
+    .logo-image {
+        height: 40px;
+        max-width: 40px;
+    }
+    
+    .logo-text {
+        font-size: 1.3rem;
+    }
 }
