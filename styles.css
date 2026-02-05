@@ -1104,4 +1104,31 @@ footer {
     .quick-links {
         flex-direction: column;
     }
+    .logo-link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-image {
+        height: 50px; /* Adjust size as needed */
+        width: auto;
+        transition: transform 0.3s ease;
+    }
+
+    .logo-image:hover {
+        transform: scale(1.05);
+    }
+
+    /* For mobile */
+    @media (max-width: 968px) {
+        .logo-image {
+            height: 40px;
+    }
+    .footer-logo {
+        height: 60px;
+        width: auto;
+        margin-bottom: 1rem;
+        filter: brightness(0) invert(1); /* Makes logo white */
+    }
 }
