@@ -1135,4 +1135,9 @@ footer {
         margin-bottom: 1rem;
         filter: brightness(0) invert(1); /* Makes logo white */
     }
+    .logo-image {
+        height: 50px !important;
+        width: auto !important;
+        max-height: 50px !important;
+    }
 }
