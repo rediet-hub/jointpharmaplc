@@ -1111,8 +1111,11 @@ footer {
     }
 
     .logo-image {
-        height: 50px; /* Adjust size as needed */
+        height: 50px; /* This controls the size */
         width: auto;
+        max-height: 50px;
+        max-width: 200px; /* Prevents it from being too wide */
+        object-fit: contain;
         transition: transform 0.3s ease;
     }
 
@@ -1124,6 +1127,7 @@ footer {
     @media (max-width: 968px) {
         .logo-image {
             height: 40px;
+            max-width: 150px;
     }
     .footer-logo {
         height: 60px;
