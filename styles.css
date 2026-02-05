@@ -1105,40 +1105,32 @@ footer {
         flex-direction: column;
     }
     .logo-link {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    text-decoration: none;
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          text-decoration: none;
     }
-
+    
+    /* Header logo ONLY */
     .logo-image {
-        height: 50px;
-        width: 50x;
-        object-fit: contain;
-        transition: transform 0.3s ease;
+      height: 48px;
+      width: auto;
+      max-width: 48px;
+      object-fit: contain;
+      display: block;
     }
+    
     @media (max-width: 968px) {
-        .logo-image {
-            height: 40px;
-        }
-    
-        .logo-text {
-            font-size: 1.3rem;
-        }
-    
-        nav {
-            padding: 1rem 2rem;
-        }
-        @media (max-width: 968px) {
-    .logo-image {
+      .logo-image {
         height: 40px;
-    }
-
-    .logo-text {
+        max-width: 40px; /* optional but keeps it consistent */
+      }
+    
+      .logo-text {
         font-size: 1.3rem;
-    }
-
-    nav {
+      }
+    
+      nav {
         padding: 1rem 2rem;
+      }
     }
-}
