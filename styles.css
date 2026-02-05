@@ -1113,7 +1113,7 @@ footer {
 
     .logo-image {
         height: 50px;
-        width: auto;
+        width: 50x;
         object-fit: contain;
         transition: transform 0.3s ease;
     }
