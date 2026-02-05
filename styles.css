@@ -1111,7 +1111,7 @@ footer {
           text-decoration: none;
     }
     
-    /* Header logo ONLY */
+    /* Header  ONLY */
     .logo-image {
       height: 48px;
       width: auto;
@@ -1119,17 +1119,25 @@ footer {
       object-fit: contain;
       display: block;
     }
-    
+    .logo-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--primary-navy);
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    }
     @media (max-width: 968px) {
       .logo-image {
         height: 40px;
         max-width: 40px; /* optional but keeps it consistent */
       }
-    
-      .logo-text {
-        font-size: 1.3rem;
-      }
-    
+        .footer-logo {
+    height: 50px;
+    width: auto;
+    margin-bottom: 1rem;
+    filter: brightness(0) invert(1);
+    }
       nav {
         padding: 1rem 2rem;
       }
