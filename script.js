@@ -86,3 +86,26 @@ window.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
+// Simple zoom on click
+document.addEventListener('DOMContentLoaded', function() {
+    const productCards = document.querySelectorAll('.product-card');
+    
+    // Create overlay
+    const overlay = document.createElement('div');
+    overlay.className = 'overlay';
+    document.body.appendChild(overlay);
+    
+    productCards.forEach(card => {
+        card.addEventListener('click', function(e) {
+            if (e.target.classList.contains('product-btn')) return;
+            
+            this.classList.toggle('zoomed');
+            overlay.classList.toggle('active');
+        });
+    });
+    
+    overlay.addEventListener('click', function() {
+        document.querySelector('.product-card.zoomed')?.classList.remove('zoomed');
+        this.classList.remove('active');
+    });
+});
