@@ -58,7 +58,7 @@ nav {
 .logo-link {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     text-decoration: none;
 }
 
@@ -1026,7 +1026,15 @@ footer {
     margin-bottom: 1rem;
     font-weight: 500;
 }
+.footer-section h3 a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
 
+.footer-section h3 a:hover {
+    color: var(--accent-gold);
+}
 .footer-section p {
     opacity: 0.8;
     line-height: 1.7;
