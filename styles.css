@@ -63,9 +63,9 @@ nav {
 }
 
 .logo-image {
-    height: 48px;
+    height: 60px;
     width: auto;
-    max-width: 48px;
+    max-width: 60px;
     object-fit: contain;
     display: block;
 }
@@ -1143,12 +1143,7 @@ footer {
           .logo-text {
         font-size: 1.3rem;
           }
-        .footer-logo {
-    height: 50px;
-    width: auto;
-    margin-bottom: 1rem;
-    filter: brightness(0) invert(1);
-    }
+        
       nav {
         padding: 1rem 2rem;
       }
